@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  font-family: Poppins;
+  background: #1d1e22;
+  color: #fff;
+}
+
+.guage {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.guage.green {
+  color: #1df800;
+  background: conic-gradient(#1df800 0% 56%, #303238 56% 100%);
+}
+
+.guage.orange {
+  color: #ffd900;
+  background: conic-gradient(#ffd900 0% 34%, #303238 34% 100%);
+}
+
+.guage.red {
+  color: #ff0000;
+  background: conic-gradient(#ff0000 0% 18%, #303238 18% 100%);
+}
+
+.guage-inner {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #1d1e22;
+}
+
